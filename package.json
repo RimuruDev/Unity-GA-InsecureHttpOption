@@ -1,0 +1,23 @@
+{
+  "name": "com.rimurudev.unity-ga-insecurehttpoption",
+  "version": "1.0.0",
+  "displayName": "Unity GA Insecure HTTP Option Fix",
+  "description": "This package fixes the 'Insecure connection not allowed' error in Unity when using the GameAnalytics plugin by adjusting the insecureHttpOption in ProjectSettings.",
+  "unity": "2020.3",
+  "dependencies": {},
+  "keywords": [
+    "gameanalytics",
+    "unity",
+    "rimurudev",
+    "rimuru-dev",
+    "http",
+    "settings",
+    "abyssmoth",
+    "Insecure-HTTP-Option"
+  ],
+  "author": {
+    "name": "RimuruDev",
+    "email": "rimuru.dev@gmail.com",
+    "url": "https://github.com/RimuruDev"
+  }
+}
