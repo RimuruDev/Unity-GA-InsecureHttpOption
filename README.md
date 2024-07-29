@@ -1,4 +1,4 @@
-# Unity Game Analytics Insecure HTTP Option Fix
+# Unity Game Analytics Insecure HTTP Option
 
 Этот репозиторий содержит скрипты, которые решают проблему с ошибкой `Insecure connection not allowed` при использовании плагина GameAnalytics в Unity.
 
@@ -9,6 +9,8 @@
 ```
 Unity GA | Job failed with exception: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: Insecure connection not allowed
 ```
+
+![___image_2024-07-29_18-44-26](https://github.com/user-attachments/assets/aad5768b-c5d0-4c13-8bba-bdb627e36529)
 
 Полный стектрейс:
 ```
@@ -51,9 +53,12 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/
 ```json
 "com.rimurudev.unity-ga-insecurehttpoption": "https://github.com/RimuruDev/Unity-GA-InsecureHttpOption.git"
 ```
-
 3. Или установите через Package Manager `"https://github.com/RimuruDev/Unity-GA-InsecureHttpOption.git"`
 4. Сохраните файл и откройте Unity. Пакет будет автоматически установлен.
+
+<img width="189" alt="image" src="https://github.com/user-attachments/assets/5cd9a59c-74db-4319-8a01-87f78b22769e">
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/634bd02c-4418-4674-8c39-3d0a893a859d">
+
 
 ### Установка из релиза
 
@@ -68,6 +73,12 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/
 
 - **Set insecureHttpOption to 1**: `RimuruDev Tools/GA/Set insecureHttpOption to 1`
 - **Set insecureHttpOption to 0**: `RimuruDev Tools/GA/Set insecureHttpOption to 0`
+
+<img width="295" alt="image" src="https://github.com/user-attachments/assets/a45f7c0f-91a9-4501-bd3b-e4de619c076e">
+
+---
+
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/bce70f26-e586-48bf-a2cb-1fea0f99f275">
 
 ### Автоматическая обработка при сборке
 
